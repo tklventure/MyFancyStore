@@ -279,4 +279,19 @@
 			</build>
 		</profile>
 	</profiles>
+<distributionManagement>
+ <repository>
+ <id>central</id>
+ <name>Sundar-releases</name>
+ <url>http://13.232.124.236:8081/artifactory/libs-release-local</url>
+ </repository>
+
+ <snapshotRepository>
+ <id>snapshots</id>
+ <name>Sundar-snapshots</name>
+ <url>http://13.232.124.236:8081/artifactory/libs-snapshot-local</url>
+ </snapshotRepository>
+</distributionManagement>
+
+
 </project>
