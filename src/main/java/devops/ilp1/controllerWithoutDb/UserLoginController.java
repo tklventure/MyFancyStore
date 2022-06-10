@@ -35,7 +35,7 @@ public class UserLoginController extends HttpServlet {
 
 					PrintWriter pout= response.getWriter();
 					if (new UserService().isAuthorized(signUp)) {
-						pout.write("Great!!! Login successfull...   You are WELCOME");
+						pout.write("Login successfull...");
 						RequestDispatcher rd = request.getRequestDispatcher("/success.jsp");
 						rd.forward(request,response);
 						return;
